@@ -162,59 +162,59 @@ nav a:hover {
     border-radius: var(--border-radius);
 }
   
-  /* LAYOUT */
-  .container {
+/* layout */
+.container {
     width: 85%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
   
-  .container-fluid {
+.container-fluid {
     width: 92%;
-  }
+}
   
-  /* DISPLAY */
-  .display-none {
+/* display */
+.display-none {
     display: none;
-  }
+}
   
-  .display-block {
+.display-block {
     display: block;
-  }
+}
   
-  .display-inline-block {
+.display-inline-block {
     display: inline-block;
-  }
+}
   
-  .display-inline {
+.display-inline {
     display: inline;
-  }
+}
   
-  /* HEIGHT / WIDTH UTILS */
-  .w-100 {
+/* height and width */
+.w-100 {
     width: 100%;
-  }
+}
   
-  .w-75 {
+.w-75 {
     width: 75%;
-  }
+}
   
-  .w-50 {
+.w-50 {
     width: 50%;
-  }
+}
   
-  .w-25 {
+.w-25 {
     width: 25%;
-  }
+}
   
-  .min-100-vh {
+.min-100-vh {
     min-height: 100vh;
-  }
+}
   
-  .min-100-vw {
+.min-100-vw {
     min-width: 100vw;
-  }
+}
   
   /* MARGIN/PADDING UTILS */
   
