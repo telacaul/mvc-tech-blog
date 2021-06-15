@@ -102,7 +102,7 @@ nav a:hover {
     color: var(--light);
 }
   
-  .btn {
+.btn {
     font-size: 1.3rem;
     text-decoration: none;
     padding: 0.5rem 1.2rem;
@@ -112,55 +112,55 @@ nav a:hover {
     color: var(--dark);
     outline: none;
     background-color: var(--primary);
-  }
+}
   
-  .btn:hover {
+.btn:hover {
     color: var(--dark);
     background-color: var(--secondary);
-  }
+}
   
-  .btn-inline {
+.btn-inline {
     display: inline;
-  }
+}
   
-  /* CARDS */
-  .card {
+  /* cards */
+.card {
     margin: 0 0 20px 0;
     border: 3px solid var(--dark);
     border-radius: var(--border-radius);
-  }
+}
   
-  .card-header {
+.card-header {
     color: var(--primary);
     background-color: var(--dark);
     padding: 2.5%;
     border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
-  }
+}
   
-  .card-body {
+.card-body {
     padding: 2.5%;
-  }
+}
   
-  /* FORM */
-  .form-label,
-  .form-input,
-  .form-textarea {
+/* form */
+.form-label,
+.form-input,
+.form-textarea {
     display: block;
-  }
+}
   
-  .form-label {
+.form-label {
     font-size: 1.1rem;
     margin: 0 0 0 5px;
-  }
+}
   
-  .form-input {
+.form-input {
     width: 100%;
     padding: 3%;
     margin: 5px 0;
     font-size: 1.2rem;
     border: 2px solid var(--dark);
     border-radius: var(--border-radius);
-  }
+}
   
   /* LAYOUT */
   .container {
