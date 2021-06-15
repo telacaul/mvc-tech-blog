@@ -1,0 +1,27 @@
+<div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+    <h3 class="portfolio-item-title text-light">{{post.title}}</h3>
+    <h5 class="portfolio-languages">{{post.body}}</h5>
+    <p>posted by {{user.username}} on {{format_date post.created_at}}</p>
+    {{#if loggedIn}}
+    <form class="comment-form">
+        <div>
+            <textarea class="form-input" name="comment-body"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Add Comment</button>
+        </div>
+    </form>
+{{/if}}
+</div>
+
+
+
+<div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+    {{> comments post.comments}}
+</div>
+
+
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+{{/if}}
