@@ -1,0 +1,35 @@
+<article class="col-12 mb-2 bg-dark text-light p-3">
+    <a href="/dashboard" class="text-light">&larr; Back to dashboard</a>
+    <h4 class="text-light">
+        Edit Post
+    </h4>
+    <form class="edit-post-form">
+        <div>
+            <input type="text" name="post-title" value="{{post.title}}"/>
+            <br>
+            <input type="text" name="post-body" value="{{post.body}}" class="form-input"/>
+        </div>
+        <button type="submit">Save post</button>
+        <button type="button" class="delete-post-btn">Delete post</button>
+    </form>
+</article>
+
+<form class="comment-form col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+    <div>
+        <h4 class="text-light">Add Comment</h4>
+        <textarea name="comment-body" class="form-input"></textarea>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Add Comment</button>
+    </div>
+</form>
+
+<div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+    {{> comments post.comments}}
+</div>
+
+
+<script src="/javascript/comment.js"></script>
+<script src="/javascript/delete-post.js"></script>
+<script src="/javascript/edit-post.js"></script>
