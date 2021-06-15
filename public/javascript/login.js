@@ -23,7 +23,6 @@ async function signupFormhandler(event) {
     }
 }
 
-
 async function loginFormHandler(event) {
     event.preventDefault();
 
